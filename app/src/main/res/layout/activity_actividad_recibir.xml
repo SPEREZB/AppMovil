@@ -44,7 +44,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="108dp"
         android:text="Fecha_Nac"
-        app:layout_constraintBottom_toTopOf="@+id/btn_regresar"
+        app:layout_constraintBottom_toTopOf="@+id/botonregresar"
         app:layout_constraintStart_toStartOf="parent" />
 
 
@@ -55,7 +55,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="52dp"
         android:text="Telefono"
-        app:layout_constraintBottom_toTopOf="@+id/btn_regresar"
+        app:layout_constraintBottom_toTopOf="@+id/botonregresar"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -102,7 +102,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btn_regresar"
+        android:id="@+id/botonregresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="84dp"
